@@ -1,10 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Topbar from './Topbar';
+import Bottombar from './Bottombar';
 
 function App() {
   return (
-    <div className="App">
+  	<div>
+  		<Topbar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,6 +22,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Bottombar />
     </div>
   );
 }
