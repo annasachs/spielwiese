@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/spielwiese/static/css/main.d1b05096.chunk.css",
-    "main.js": "/spielwiese/static/js/main.e0437eb8.chunk.js",
-    "main.js.map": "/spielwiese/static/js/main.e0437eb8.chunk.js.map",
+    "main.css": "/spielwiese/static/css/main.4895fb92.chunk.css",
+    "main.js": "/spielwiese/static/js/main.c2d1f45c.chunk.js",
+    "main.js.map": "/spielwiese/static/js/main.c2d1f45c.chunk.js.map",
     "runtime-main.js": "/spielwiese/static/js/runtime-main.5fe27f7c.js",
     "runtime-main.js.map": "/spielwiese/static/js/runtime-main.5fe27f7c.js.map",
     "static/js/2.b84e8ac7.chunk.js": "/spielwiese/static/js/2.b84e8ac7.chunk.js",
     "static/js/2.b84e8ac7.chunk.js.map": "/spielwiese/static/js/2.b84e8ac7.chunk.js.map",
     "index.html": "/spielwiese/index.html",
-    "precache-manifest.4a7fe33e07b07f289cf4316f76dc0384.js": "/spielwiese/precache-manifest.4a7fe33e07b07f289cf4316f76dc0384.js",
+    "precache-manifest.e3c3f52e534be5e8ca6a6c83b18fd145.js": "/spielwiese/precache-manifest.e3c3f52e534be5e8ca6a6c83b18fd145.js",
     "service-worker.js": "/spielwiese/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/spielwiese/static/css/main.d1b05096.chunk.css.map",
+    "static/css/main.4895fb92.chunk.css.map": "/spielwiese/static/css/main.4895fb92.chunk.css.map",
     "static/js/2.b84e8ac7.chunk.js.LICENSE.txt": "/spielwiese/static/js/2.b84e8ac7.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/spielwiese/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.5fe27f7c.js",
     "static/js/2.b84e8ac7.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.e0437eb8.chunk.js"
+    "static/css/main.4895fb92.chunk.css",
+    "static/js/main.c2d1f45c.chunk.js"
   ]
 }

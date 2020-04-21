@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "afdf6bb370fd579e2fe12df928382c78",
+    "revision": "bda40faaef2b6edf8a07c628435a3743",
     "url": "/spielwiese/index.html"
   },
   {
-    "revision": "bc1a4eec571ba01235c2",
-    "url": "/spielwiese/static/css/main.d1b05096.chunk.css"
+    "revision": "604118717c538ec3a30f",
+    "url": "/spielwiese/static/css/main.4895fb92.chunk.css"
   },
   {
     "revision": "ee0e0fe1b47eab34a103",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/spielwiese/static/js/2.b84e8ac7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bc1a4eec571ba01235c2",
-    "url": "/spielwiese/static/js/main.e0437eb8.chunk.js"
+    "revision": "604118717c538ec3a30f",
+    "url": "/spielwiese/static/js/main.c2d1f45c.chunk.js"
   },
   {
     "revision": "5eabbedd2b6a022aefda",
