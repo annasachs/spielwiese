@@ -3,8 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 import Topbar from './Topbar';
 import Bottombar from './Bottombar';
+import Card from './Card';
+import Button from './Button';
 
-function App() {
+const App = () => {
   return (
   	<div>
   		<Topbar />
@@ -21,6 +23,8 @@ function App() {
         >
           Learn React
         </a>
+          <Button name={"Spiel starten"}/>
+          <Card />
       </header>
       <Bottombar />
     </div>
