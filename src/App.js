@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import Topbar from './Topbar';
-import Bottombar from './Bottombar';
-import Card from './Card';
-import Button from './Button';
-import Home from './Home';
+import Topbar from './navigation/Topbar';
+import Bottombar from './navigation/Bottombar';
+import Home from './navigation/Home';
+import Activity from './navigation/Activity';
+import KratzyWordtz from './navigation/KratzyWordtz';
 
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
@@ -23,6 +22,7 @@ const App = () => {
           {/* <Route path='/login' component={Login} />
           <Route path='/impressum' component={Impressum} /> */}
         </Switch>
+        <Bottombar />
       </div>
     </Router>
   );

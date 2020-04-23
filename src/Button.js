@@ -6,7 +6,7 @@ const Button = (props) => {
   return (
   	<div className="container grow">
   		<form method="GET">
-	  		<button type="button" className="spielstart" onclick="startenAct()">
+	  		<button type="button" className="spielstart" >
 	  			{props.name}
 	  		</button>
 	  	</form>
