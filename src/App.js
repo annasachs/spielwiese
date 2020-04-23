@@ -1,31 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Topbar from './Topbar';
-import Bottombar from './Bottombar';
-import Card from './Card';
-import Button from './Button';
+import Topbar from './Navigation/Topbar';
+import Bottombar from './Navigation/Bottombar';
+import Home from './Navigation/Home';
 
 const App = () => {
   return (
   	<div>
   		<Topbar />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-          <Button name={"Spiel starten"}/>
-          <Card />
-      </header>
+      <Home />
       <Bottombar />
     </div>
   );

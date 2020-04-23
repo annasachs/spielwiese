@@ -1,5 +1,5 @@
 import React from 'react';
-import './Bar.css';
+import '../Bar.css';
 import './Bottombar.css';
 
 function Bottombar() {
