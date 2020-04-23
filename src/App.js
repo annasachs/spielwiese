@@ -1,33 +1,30 @@
-import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Topbar from './Topbar';
 import Bottombar from './Bottombar';
 import Card from './Card';
 import Button from './Button';
+import Home from './Home';
+
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 const App = () => {
   return (
-  	<div>
-  		<Topbar />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-          <Button name={"Spiel starten"}/>
-          <Card />
-      </header>
-      <Bottombar />
-    </div>
+    <Router>
+      <div>
+        <h2>Welcome to React Router Tutorial</h2>
+        <Topbar />
+        <hr />
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/contact' component={Activity} />
+          <Route path='/about' component={KratzyWordtz} />
+          {/* <Route path='/login' component={Login} />
+          <Route path='/impressum' component={Impressum} /> */}
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
