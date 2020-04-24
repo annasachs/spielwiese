@@ -6,7 +6,7 @@ function Bottombar() {
   return (
 	<div className="zone orange">
 	  	<ul className="footer">
-	  		<li><a href="index.html"> Impressum </a></li>
+	  		<li><a href="index.html" className="nav"> Impressum </a></li>
 	  	</ul>
 	</div>
 	);

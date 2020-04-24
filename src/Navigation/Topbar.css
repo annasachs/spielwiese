@@ -1,3 +1,8 @@
+.zone {
+    height: 3em;
+    align-items: center;
+}
+
 .header{
     display: flex;
     list-style: none;
@@ -16,3 +21,6 @@
     margin-left: auto;
 }
 
+.logo {
+    width: 40px;
+}
